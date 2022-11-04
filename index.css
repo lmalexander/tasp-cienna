@@ -1,0 +1,14 @@
+
+.pattern {
+/* Stroke-dasharray property */
+stroke-dasharray: 1000px;
+stroke-dashoffset: 1000px;
+animation: move 15s linear infinite;   
+/*     animation-fill-mode: forwards; */
+}
+
+@keyframes move {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
